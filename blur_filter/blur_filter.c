@@ -10,7 +10,7 @@ void blur(int amount){
         for(int j = 0; j < amount; j++){
             matrix[i][j] = counter;
             counter++;
-            printf("%d\n", matrix[i][j]);
+            printf("%d\n", matrix[i][j]); 
         }
     }
 }

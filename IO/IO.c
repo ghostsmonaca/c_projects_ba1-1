@@ -22,7 +22,7 @@ int main(){
         printf("\n");
         counter ++;
         x += 2;
-        spaces --;
+        spaces --; 
     }
 
     return 0;
